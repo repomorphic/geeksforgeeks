@@ -43,6 +43,18 @@ If you want to generate the books yourself. Here is an incomplete guide.
 4. [kindlegen][4] is needed to generate `mobi` files for reading on Kindle or the Kindle App.
 5. [WordCloud][5]. The book covers are generated with `wordcloud` with a bit of meta in mind.
 
+#### Ubuntu Quick Installation Guide
+
+```
+pip install scrapy
+pip install boilerpipy
+pip install matplotlib
+pip install wordcloud
+pip install kindlegen
+sudo apt-get install python-tk 
+sudo apt-get install pandoc
+```
+
 ## How To
 
 1. **Crawling with Scrpay.** Go to the `geeksforgeeks` subdirectory and run commands *like* `scrapy crawl geeksforgeeks -a category=category -a name=name`.
